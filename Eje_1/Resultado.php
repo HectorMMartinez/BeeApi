@@ -38,7 +38,7 @@ $genero = $esHombre ? "Hombre" : "Mujer";
 $probabilidad = round($respuesta->probability * 100, 2);
 ?>
 <head>
-    <link rel="stylesheet" href="../bulma-1.0.2/bulma/css/bulma.css">
+    <link rel="stylesheet" href="../bulma/css/bulma.css">
     <style>
     html, body {
         overflow: hidden;
