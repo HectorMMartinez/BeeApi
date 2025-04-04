@@ -5,7 +5,7 @@ $n=2;
 $api=(object)get_api($n);
 if(!$api){
     echo '
-    <h1>API no encontrada</h1>
+    <h1>API no encontrada </h1>
     <p>La API que buscas no existe</p>
     <a href="./" class="button">Regresar</a>
     ';

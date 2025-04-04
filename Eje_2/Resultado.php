@@ -62,7 +62,7 @@ if ($edad <= 18) {
 
 </head>
 <body>
-    <div class="box <?= $background_color ?> has-text-centered">
+    <div  class="box <?= $background_color ?> has-text-centered">
         <h1 class="title is-3 <?= $text_color ?>">Resultado <?= $icono ?></h1>
         <figure class="image is-128x128 is-inline-block">
             <img class="is-rounded" src="<?= $imagen ?>" alt="<?= $etapa ?>">
