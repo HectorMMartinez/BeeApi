@@ -35,36 +35,6 @@ function get_lista_apis(){
             'descripcion'=>'Ingresa un nombre de Pokémon y muestra información',
             'url'=>'Eje_5',
             'api'=>'https://pokeapi.co/api/v2/pokemon/'
-        ),
-        array(
-            'nombre'=>'Noticias desde WordPress 📰',
-            'descripcion'=>'Obtiene las últimas 3 noticias de una página de WordPress',
-            'url'=>'Eje_6',
-            'api'=>''
-        ),
-        array(
-            'nombre'=>'Conversión de Monedas 💰',
-            'descripcion'=>'Convierte una cantidad de USD a DOP y otras monedas',
-            'url'=>'Eje_7',
-            'api'=>'https://api.exchangerate-api.com/v4/latest/USD'
-        ),
-        array(
-            'nombre'=>'Generador de imágenes con IA 🖼️',
-            'descripcion'=>'Ingresa una palabra clave y muestra una imagen',
-            'url'=>'Eje_8',
-            'api'=>''
-        ),
-        array(
-            'nombre'=>'Datos de un país 🌍',
-            'descripcion'=>'Ingresa un país y muestra información',
-            'url'=>'Eje_9',
-            'api'=>'https://restcountries.com/v3.1/name/'
-        ),
-        array(
-            'nombre'=>'Generador de chistes 🤣',
-            'descripcion'=>'Muestra un chiste aleatorio',
-            'url'=>'Eje_10',
-            'api'=>'https://official-joke-api.appspot.com/jokes/random'
         )
     );
     return $apis;
